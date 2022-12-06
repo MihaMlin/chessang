@@ -1,10 +1,10 @@
 import { createConnection } from 'mysql';
 
 export var connection = createConnection({
-    host: "localhost",
-    user: "root",
-    //password: "root",
-    database: "chess_RPO_2022"
+    host: "eu-cdbr-west-03.cleardb.net",
+    user: "b57cf024b25c7c",
+    password: "2317a8a4",
+    database: "heroku_01b7a35e3d1cfd1"
 });
 
 connection.connect((err) => {
