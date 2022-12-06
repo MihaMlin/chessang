@@ -3,7 +3,6 @@ import bodyParser from 'body-parser';
 import path from 'path';
 
 const app = express(); //celotna aplikacija v app
-const path = path();
 const PORT = rocess.env.PORT || 5000;
 
 app.use(bodyParser.json());
