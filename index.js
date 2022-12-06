@@ -8,7 +8,7 @@ import confirmRoute from './routes/confirm.js';
 import loginRoute from './routes/login.js';
 
 const app = express(); //celotna aplikacija v app
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 6000;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

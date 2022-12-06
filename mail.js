@@ -31,7 +31,7 @@ export const send_confirm_email = (user_email, username, email_token) => {
         html: `
             Pozdravljeni <b>${ username }</b>,
             <br><br>
-            ta e-naslov je bil uporabljen za registracijo na <b>chess-rpo</b>. Da lahko pričnete z igranjem, morate potrditi račun, z klikom na to <a href="http://localhost:5000/confirm/${ email_token }">povezavo</a>.
+            ta e-naslov je bil uporabljen za registracijo na <b>chess-rpo</b>. Da lahko pričnete z igranjem, morate potrditi račun, z klikom na to <a href="https://bash-chess.herokuapp.com/confirm/${ email_token }">povezavo</a>.
             <br><br>
             Če se niste registrirali Vi, lahko ta mail ignorirate.
             <br><br>

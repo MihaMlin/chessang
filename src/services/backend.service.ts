@@ -7,7 +7,7 @@ import {RegisterDto} from "../interfaces/RegisterDto";
 })
 export class BackendService {
 
-  private url: string = 'http://localhost:5000';
+  private url: string = 'https://bash-chess.herokuapp.com';
   private opts: any = {withCredentials: true};
 
   constructor(private http: HttpClient) { }
