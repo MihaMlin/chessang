@@ -7,7 +7,7 @@ var db_config = {
     database: "heroku_01b7a35e3d1cfd1"
 };
 
-var connection = createConnection(db_config);
+export var connection = handleDisconect();
 
 function handleDisconect() {
   connection = createConnection(db_config);
@@ -29,6 +29,7 @@ function handleDisconect() {
       throw err;
     }
   });
+  return connection;
 };
 
 handleDisconect();
